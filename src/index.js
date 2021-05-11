@@ -1,11 +1,12 @@
-import loadPage from "./pageLoad";
+import loadPage from './modules/pageLoad';
 
-//Call init() first before loading contents 
-init()
+loadPage();
+// const content = document.querySelector('#content');
 
-function init() {
-  setTimeout(() => {
-    loadPage();
-  }, 3000);
-}
+// const link = document.createElement('a');
+// // link.setAttribute('href', loadPage);
+// link.textContent = 'Click here';
 
+// link.addEventListener('click', loadPage); 
+
+// content.appendChild(link)
