@@ -1,6 +1,11 @@
 import loadPage from './modules/pageLoad';
+import home from './modules/Home';
 
-loadPage();
+init();
+
+function init() {
+  loadPage();
+}
 // const content = document.querySelector('#content');
 
 // const link = document.createElement('a');

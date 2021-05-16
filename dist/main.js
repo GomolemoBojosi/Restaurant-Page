@@ -16,17 +16,47 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad */ \"./src/pageLoad.js\");\n\r\n\r\n//Call init() first before loading contents \r\ninit()\r\n\r\nfunction init() {\r\n  setTimeout(() => {\r\n    ;(0,_pageLoad__WEBPACK_IMPORTED_MODULE_0__.default)();\r\n  }, 3000);\r\n}\r\n\r\n\n\n//# sourceURL=webpack://resturant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/pageLoad */ \"./src/modules/pageLoad.js\");\n/* harmony import */ var _modules_Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/Home */ \"./src/modules/Home.js\");\n\r\n\r\n\r\ninit();\r\n\r\nfunction init() {\r\n  (0,_modules_pageLoad__WEBPACK_IMPORTED_MODULE_0__.default)();\r\n}\r\n// const content = document.querySelector('#content');\r\n\r\n// const link = document.createElement('a');\r\n// // link.setAttribute('href', loadPage);\r\n// link.textContent = 'Click here';\r\n\r\n// link.addEventListener('click', loadPage); \r\n\r\n// content.appendChild(link)\n\n//# sourceURL=webpack://resturant-page/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/pageLoad.js":
-/*!*************************!*\
-  !*** ./src/pageLoad.js ***!
-  \*************************/
+/***/ "./src/modules/Home.js":
+/*!*****************************!*\
+  !*** ./src/modules/Home.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nconst content = document.querySelector(\"#content\");\r\n\r\nconst loadPage = () => {\r\n  const h1 = document.createElement(\"h1\");\r\n  h1.innerText = \"Page Loaded\";\r\n\r\n  return content.appendChild(h1);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadPage);\r\n\r\n\r\n\n\n//# sourceURL=webpack://resturant-page/./src/pageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nfunction home() {\r\n  const homeDiv = document.createElement('div');\r\n  homeDiv.classList.add('content-container');\r\n  homeDiv.innerHTML = `\r\n    <h1>Welcome to Burger Haven</h1>\r\n    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius quasi dolore provident facere, blanditiis harum\r\n    pariatur quos atque, cum magni enim hic deleniti laboriosam repellendus velit deserunt, debitis a.\r\n    Autem obcaecati reprehenderit adipisci iusto nulla non similique. Sit aliquid amet sed nemo culpa explicabo atque,\r\n    nobis ea vero impedit ducimus delectus minima, repudiandae voluptatum voluptas eaque voluptatem rem ullam.<p/>\r\n  `;\r\n\r\n  return homeDiv;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);\n\n//# sourceURL=webpack://resturant-page/./src/modules/Home.js?");
+
+/***/ }),
+
+/***/ "./src/modules/Menu.js":
+/*!*****************************!*\
+  !*** ./src/modules/Menu.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nfunction menu() {\r\n  const menuTitle = document.createElement('h1');\r\n  menuTitle.textContent = 'Menu Page';\r\n\r\n  return menuTitle;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menu);\n\n//# sourceURL=webpack://resturant-page/./src/modules/Menu.js?");
+
+/***/ }),
+
+/***/ "./src/modules/contact.js":
+/*!********************************!*\
+  !*** ./src/modules/contact.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nfunction contact() {\r\n  const contactDiv = document.createElement('div');\r\n  contactDiv.classList.add('content-container');\r\n\r\n  contactDiv.innerHTML = `\r\n    <h3>NEED SOMETHING? GET IN TOUCH WITH US</h3>\r\n    <p><i class=\"fas fa-phone\"></i>   : 555-555-5555</p>\r\n    <p><i class=\"fas fa-map-marker-alt\"></i> : The Office</p>\r\n  `;\r\n\r\n  return contactDiv;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contact);\n\n//# sourceURL=webpack://resturant-page/./src/modules/contact.js?");
+
+/***/ }),
+
+/***/ "./src/modules/pageLoad.js":
+/*!*********************************!*\
+  !*** ./src/modules/pageLoad.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home */ \"./src/modules/Home.js\");\n/* harmony import */ var _Menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Menu */ \"./src/modules/Menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ \"./src/modules/contact.js\");\n\r\n\r\n\r\n\r\nfunction createHeader() {\r\n  const header = document.createElement('div');\r\n  header.classList.add('header');\r\n  header.innerHTML = `\r\n    <a href=\"#\"><i class=\"fas fa-hamburger rotate\"></i> BURGER <span class=\"highlight\">HAVEN</span></b></a>\r\n    <ul>\r\n      <li id=\"home\">HOME</li>\r\n      <li id=\"menu\">MENU</li>\r\n      <li id=\"contact\">CONTACT</li>\r\n    </ul>\r\n  `;\r\n  return header;\r\n}\r\n\r\nfunction loadPage() {\r\n  const content = document.querySelector('#content');\r\n  const { body } = document;\r\n  body.insertBefore(createHeader(), body.firstChild);\r\n  content.appendChild((0,_Home__WEBPACK_IMPORTED_MODULE_0__.default)());\r\n  const menuBtn = document.querySelector('#menu');\r\n  const homeBtn = document.querySelector('#home');\r\n  const contactBtn = document.querySelector('#contact');\r\n\r\n  homeBtn.classList.add('active');\r\n  menuBtn.addEventListener('click', function (e) {\r\n    content.textContent = '';\r\n    content.appendChild((0,_Menu__WEBPACK_IMPORTED_MODULE_1__.default)());\r\n  });\r\n\r\n  homeBtn.addEventListener('click', function (e) {\r\n    content.textContent = '';\r\n    content.appendChild((0,_Home__WEBPACK_IMPORTED_MODULE_0__.default)());\r\n  });\r\n\r\n  contactBtn.addEventListener('click', function (e) {\r\n    content.textContent = '';\r\n    content.appendChild((0,_contact__WEBPACK_IMPORTED_MODULE_2__.default)());\r\n  });\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadPage);\r\n\r\n\r\n\n\n//# sourceURL=webpack://resturant-page/./src/modules/pageLoad.js?");
 
 /***/ })
 
