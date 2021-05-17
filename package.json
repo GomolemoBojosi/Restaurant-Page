@@ -1,9 +1,9 @@
 {
+  "homepage": "http://GeeBojosi.github.io/Resturant-Page",
   "name": "resturant-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://GeeBojosi.github.io/Resturant-Page",
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "watch": "webpack --watch",
