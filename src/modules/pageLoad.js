@@ -25,7 +25,6 @@ function loadPage() {
   const homeBtn = document.querySelector('#home');
   const contactBtn = document.querySelector('#contact');
 
-  homeBtn.classList.add('active');
   menuBtn.addEventListener('click', function (e) {
     content.textContent = '';
     content.appendChild(menu());
@@ -39,7 +38,7 @@ function loadPage() {
   contactBtn.addEventListener('click', function (e) {
     content.textContent = '';
     content.appendChild(contact());
-  });
+  }); 
 }
 
 export default loadPage;
