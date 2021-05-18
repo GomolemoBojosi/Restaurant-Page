@@ -27,49 +27,49 @@ function menu() {
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/amirali-mirhashemian-jh5XyK4Rr3Y-unsplash.jpg',
+    '../../dist/imgs/Images/amirali-mirhashemian-jh5XyK4Rr3Y-unsplash.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/eaters-collective-pLKgCsBOiw4-unsplash.jpg',
+    '../../dist/imgs/Images/eaters-collective-pLKgCsBOiw4-unsplash.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/eiliv-sonas-aceron-uBigm8w_MpA-unsplash.jpg',
+    '../../dist/imgs/Images/eiliv-sonas-aceron-uBigm8w_MpA-unsplash.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg',
+    '../../dist/imgs/Images/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/jiroe-ris5_dfbltU-unsplash.jpg',
+    '../../dist/imgs/Images/jiroe-ris5_dfbltU-unsplash.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/joseph-abeesh-vk0SvpcFEnI-unsplash.jpg',
+    '../../dist/imgs/Images/joseph-abeesh-vk0SvpcFEnI-unsplash.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/mae-mu-I7A_pHLcQK8-unsplash.jpg',
+    '../../dist/imgs/Images/mae-mu-I7A_pHLcQK8-unsplash.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/menu imgs/shaafi-ali-5qBwgjP1ZwE-unsplash.jpg',
+    '../../dist/imgs/Images/shaafi-ali-5qBwgjP1ZwE-unsplash.jpg',
     'burger-1'
   ));
 
