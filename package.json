@@ -7,8 +7,7 @@
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "watch": "webpack --watch",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
