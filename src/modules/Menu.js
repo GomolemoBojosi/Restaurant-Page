@@ -27,49 +27,49 @@ function menu() {
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/amirali-mirhashemian-jh5XyK4Rr3Y-unsplash-min.jpg',
+    './imgs/Images/amirali-mirhashemian-jh5XyK4Rr3Y-unsplash-min.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/eaters-collective-pLKgCsBOiw4-unsplash-min.jpg',
+    './imgs/Images/eaters-collective-pLKgCsBOiw4-unsplash-min.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/eiliv-sonas-aceron-uBigm8w_MpA-unsplash-min.jpg',
+    './imgs/Images/eiliv-sonas-aceron-uBigm8w_MpA-unsplash-min.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/food-photographer-david-fedulov-E94j3rMcxlw-unsplash-min.jpg',
+    './imgs/Images/food-photographer-david-fedulov-E94j3rMcxlw-unsplash-min.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/jiroe-ris5_dfbltU-unsplash-min.jpg',
+    './imgs/Images/jiroe-ris5_dfbltU-unsplash-min.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/joseph-abeesh-vk0SvpcFEnI-unsplash-min.jpg',
+    './imgs/Images/joseph-abeesh-vk0SvpcFEnI-unsplash-min.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/mae-mu-I7A_pHLcQK8-unsplash-min.jpg',
+    './imgs/Images/mae-mu-I7A_pHLcQK8-unsplash-min.jpg',
     'burger-1'
   ));
   menuContainer.appendChild(createMenuItem(
     'R12.00',
     'Burger-1',
-    '../../dist/imgs/Images/shaafi-ali-5qBwgjP1ZwE-unsplash-min.jpg',
+    './imgs/Images/shaafi-ali-5qBwgjP1ZwE-unsplash-min.jpg',
     'burger-1'
   ));
 
