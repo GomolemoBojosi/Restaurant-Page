@@ -6,7 +6,7 @@ function createHeader() {
   const header = document.createElement('div');
   header.classList.add('header');
   header.innerHTML = `
-    <a href="#"><i class="fas fa-hamburger rotate"></i> BURGER <span class="highlight">HAVEN</span></b></a>
+    <a href="#"><i class="fas fa-hamburger rotate"></i> BURGER <span class="highlight">JOINT</span></b></a>
     <ul>
       <li id="home">HOME</li>
       <li id="menu">MENU</li>
